@@ -1,7 +1,10 @@
-# ETL-Group-Project
-ETL Group Project for Data Analytics Bootcamp - Final Report
+# Trump Tweets vs. Approval Rating ETL
 
-For our ETL project, we extracted, transformed and loaded data relating to President Trump's tweets compared to his approval ratings at the same point in time. The results would be useful to any campaign manager/agency in observing how tweets and public reactions to them may affect the population's approval of the candidate. We decided SQL would be the best ending format for our relational database, so our goal was to create CSV's for all individual datasets and load them into PostgreSQL. 
+## Summary ##
+
+This project extracted, transformed and loaded data relating to President Trump's tweets and compared them to his approval ratings at the same point in time. Hypothetically, the results could be useful to a campaign manager or agency interested in observing how a candidate or politician's tweets affect public reaction and ultimately impact the major population's approval of the candidate. 
+
+We decided SQL would be the best ending format for our relational database, so our goal was to create CSV's for all individual datasets and load them into PostgreSQL. 
 
 The first dataset we found was a list of approval ratings in the form of a csv.file on https://projects.fivethirtyeight.com/trump-approval-ratings, but the data started in 2017 and we wanted to include 2016 ratings. We pulled 2016 ratings from https://www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html#polls and used pandas read_html function to parse the url, then cleaned the data and saved to a csv file. 
 
@@ -16,3 +19,24 @@ Pandas was then used again to read the CSV file and transform the data into a fo
 We loaded our CSV files into a SQL database constructed of three tables. The relational aspect of the database is illustrated by how the tables have foreign keys that reference the primary key of the other table. 
 
 While the end visual of our ETL project looks fairly simple, it took a lot of attempts and failures in data extraction, which turned out to be a real learning process!
+
+---
+
+## Data Sources ##
+* https://twitter.com/realDonaldTrump
+* https://projects.fivethirtyeight.com/trump-approval-ratings
+* https://www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html#polls
+
+---
+
+## Technologies Used ##
+* PyCharm - Python IDE
+* Jupyter Notebook
+* Python - Pandas, JSON, NumPy, Datetime, GetOldTweets3
+* PostgreSQL
+* pgAdmin 4 - PostgreSQL IDE
+
+---
+
+## Authors ##
+Kiran Rangaraj and Michelle Crawford Hannah - Vanderbilt University 2020
