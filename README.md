@@ -2,7 +2,7 @@
 
 ## Summary ##
 
-This project extracted, transformed and loaded data relating to President Trump's tweets and compared them to his approval ratings at the same point in time. Hypothetically, the results could be useful to a campaign manager or agency interested in observing how a candidate or politician's tweets affect public reaction and ultimately impact the major population's approval of the candidate. 
+This project extracted, transformed and loaded President Trump's tweets and compared them to his approval ratings at the same point in time. Hypothetically, the results could be useful to a campaign manager or agency interested in observing how a candidate or politician's tweets affect public reaction and ultimately impact the major population's approval of the candidate. 
 
 We decided SQL would be the best ending format for our relational database, so our goal was to create CSV's for all individual datasets and load them into PostgreSQL. 
 
@@ -24,6 +24,7 @@ While the end visual of our ETL project looks fairly simple, it took a lot of at
 
 ## Data Sources ##
 * https://twitter.com/realDonaldTrump
+* https://github.com/bpb27/trump_tweet_data_archive
 * https://projects.fivethirtyeight.com/trump-approval-ratings
 * https://www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html#polls
 
