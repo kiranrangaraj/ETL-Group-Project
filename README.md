@@ -22,7 +22,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * The columns included "Start Date", "End Date", "Poll", "Approve (%)", "Disapprove (%)", "Spread", "Sample", and "Population".
 
 <p align="center">
-  <img src="Images/2016ApprovalRatings.png" width="300">
+  <img src="Images/2016ApprovalRatings.png" width="175">
 </p>
 
 * The cleaned data frame was saved as a new output CSV file ready to be loaded into the database.
@@ -31,7 +31,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Columns were reordered to be consistent with the previous cleaned data frame, null value rows and duplicate 'Start Dates' were dropped, and the date was converted to a datetime format.
 
 <p align="center">
-  <img src="Images/PresidentialApprovalRatings.png" width="285">
+  <img src="Images/PresidentialApprovalRatings.png" width="165">
 </p>
 * The cleaned data frame was also saved as a new output CSV file ready to be loaded into the database.
 
@@ -57,7 +57,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Pandas was used to combine the separate 2016 and 2017-2020 Tweet CSV files via the "pd.concat" function.
 
 <p align="center">
-  <img src="Images/Tweets.png" width="315">
+  <img src="Images/Tweets.png" width="180">
 </p>
 
 ## Database Modeling and Engineering
@@ -65,7 +65,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Primary and foreign keys were determined as illustrated in the ERD diagrame below:
 
 <p align="center">
-  <img src="Images/TableERD.png" width="600">
+  <img src="Images/TableERD.png" width="900">
 </p>
 * PostgreSQL was used to create a database, constructing a table schema to match the above format in order properly load each CSV file.
 * The data files were then loaded to the database.
