@@ -33,6 +33,7 @@ A relational database appropriate for the data was modeled and engineered using 
 <p align="center">
   <img src="Images/PresidentialApprovalRatings.png" width="170">
 </p>
+
 * The cleaned data frame was also saved as a new output CSV file ready to be loaded into the database.
 
 ### Tweet Extraction and Transformation
@@ -60,13 +61,14 @@ A relational database appropriate for the data was modeled and engineered using 
   <img src="Images/Tweets.png" width="160">
 </p>
 
-## Database Modeling and Engineering
+## Database Modeling and Engineering, and Data Loading
 * A SQL Database was modeled for the three CSV files due to the relational nature of the table columns.
 * Primary and foreign keys were determined as illustrated in the ERD diagrame below:
 
 <p align="center">
   <img src="Images/TableERD.png" width="800">
 </p>
+
 * PostgreSQL was used to create a database, constructing a table schema to match the above format in order properly load each CSV file.
 * The data files were then loaded to the database.
 
