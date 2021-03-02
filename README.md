@@ -94,6 +94,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Jupyter Notebook
 * PostgreSQL
 * pgAdmin 4 - PostgreSQL IDE
+* JSON & CSV file
 
 ---
 
