@@ -8,7 +8,7 @@
 
 This project extracted, transformed and loaded Donald Trump's Tweets and his approval ratings from the 2016 pre-election year through all four years of his presidency. The data was extracted from various sources using different methods, which included downloading a CSV and a JSON file, parsing a HTML table from its URL, and querying Tweets directly from Twitter using the Python library GetOldTweets3. All data transformation was conducted using Python Pandas and saved as CSV output files. 
 
-A relational database appropriate for the data was modeled and engineered using PostgreSQL. Finally, the output CSV files were loaded into the database from which queries could be run in order to analyze the data. Hypothetically, the queries could be structured to assess several aspects of the Tweets which could be useful to a campaign manager or agency concerned with how a political candidate or politician's Tweets affect public reaction and ultimately impacts the general population's approval of the candidate.
+A relational database appropriate for the data was modeled and engineered using PostgreSQL. Finally, the output CSV files were loaded into the database from which queries could be run in order to analyze the data. Hypothetically, the queries could be structured to assess several aspects of the Tweets which would be useful to a campaign manager or agency concerned with how a political candidate or politician's Tweets affect public reaction and ultimately impacts the general population's approval of the candidate.
 
 ---
 
