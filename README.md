@@ -89,7 +89,7 @@ A relational database appropriate for the data was modeled and engineered using 
 ---
 
 ## Technologies Used ##
-* Python - Pandas, NumPy, Datetime, GetOldTweets3
+* Python - Pandas, Datetime, GetOldTweets3
 * PyCharm - Python IDE
 * Jupyter Notebook
 * PostgreSQL
