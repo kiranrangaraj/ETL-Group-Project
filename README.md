@@ -1,7 +1,7 @@
 # Trump Tweets & Approval Rating Extraction, Transformation, Loading (ETL)
 
 <p align="center">
-  <img src="Images/TrumpTwitter.jpg" width="500">
+  <img src="Images/TrumpTwitter.jpg" width="600">
 </p>
 
 ## Summary ##
@@ -31,7 +31,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Columns were reordered to be consistent with the previous cleaned data frame, null value rows and duplicate 'Start Dates' were dropped, and the date was converted to a datetime format.
 
 <p align="center">
-  <img src="Images/PresidentialApprovalRatings.png" width="165">
+  <img src="Images/PresidentialApprovalRatings.png" width="170">
 </p>
 * The cleaned data frame was also saved as a new output CSV file ready to be loaded into the database.
 
@@ -57,7 +57,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Pandas was used to combine the separate 2016 and 2017-2020 Tweet CSV files via the "pd.concat" function.
 
 <p align="center">
-  <img src="Images/Tweets.png" width="180">
+  <img src="Images/Tweets.png" width="170">
 </p>
 
 ## Database Modeling and Engineering
@@ -65,7 +65,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Primary and foreign keys were determined as illustrated in the ERD diagrame below:
 
 <p align="center">
-  <img src="Images/TableERD.png" width="900">
+  <img src="Images/TableERD.png" width="800">
 </p>
 * PostgreSQL was used to create a database, constructing a table schema to match the above format in order properly load each CSV file.
 * The data files were then loaded to the database.
@@ -81,6 +81,8 @@ A relational database appropriate for the data was modeled and engineered using 
 ### Python Libraries
 * https://www.tweepy.org/
 * https://pypi.org/project/GetOldTweets3/
+### Trump Twitter Image
+* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnn.com%2Fvideos%2Fpolitics%2F2018%2F11%2F02%2Ftrump-twitter-social-media-truth-tapper-fact-check-orig.cnn&psig=AOvVaw3Hquj_9grfptNNSkJVxTCe&ust=1614730579233000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjbvKiqkO8CFQAAAAAdAAAAABAc
 
 ---
 
@@ -95,5 +97,4 @@ A relational database appropriate for the data was modeled and engineered using 
 
 ## Authors ##
 Kiran Rangaraj - LinkedIn: [@Kiran Rangaraj](https://www.linkedin.com/in/kiranrangaraj/)
-
 Michelle Hannah - LinkedIn: [@Michelle Hannah](https://www.linkedin.com/in/michelle-hannah-5a326258/)
