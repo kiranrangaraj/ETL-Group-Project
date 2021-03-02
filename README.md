@@ -1,4 +1,4 @@
-# Trump Tweets & Approval Rating Extraction, Transformation, Loading (ETL)
+# Trump Tweets & Approval Rating ETL
 
 <p align="center">
   <img src="Images/TrumpTwitter.jpg" width="600">
@@ -57,7 +57,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * Pandas was used to combine the separate 2016 and 2017-2020 Tweet CSV files via the "pd.concat" function.
 
 <p align="center">
-  <img src="Images/Tweets.png" width="170">
+  <img src="Images/Tweets.png" width="160">
 </p>
 
 ## Database Modeling and Engineering
@@ -82,7 +82,7 @@ A relational database appropriate for the data was modeled and engineered using 
 * https://www.tweepy.org/
 * https://pypi.org/project/GetOldTweets3/
 ### Trump Twitter Image
-* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnn.com%2Fvideos%2Fpolitics%2F2018%2F11%2F02%2Ftrump-twitter-social-media-truth-tapper-fact-check-orig.cnn&psig=AOvVaw3Hquj_9grfptNNSkJVxTCe&ust=1614730579233000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjbvKiqkO8CFQAAAAAdAAAAABAc
+* https://www.cnn.com/videos/politics/2018/11/02/trump-twitter-social-media-truth-tapper-fact-check-orig.cnn
 
 ---
 
@@ -97,4 +97,5 @@ A relational database appropriate for the data was modeled and engineered using 
 
 ## Authors ##
 Kiran Rangaraj - LinkedIn: [@Kiran Rangaraj](https://www.linkedin.com/in/kiranrangaraj/)
+
 Michelle Hannah - LinkedIn: [@Michelle Hannah](https://www.linkedin.com/in/michelle-hannah-5a326258/)
