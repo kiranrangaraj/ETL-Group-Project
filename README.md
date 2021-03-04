@@ -76,15 +76,15 @@ A relational database appropriate for the data was modeled and engineered using 
 
 ## Sources ##
 ### Data
-* https://twitter.com/realDonaldTrump
-* https://github.com/bpb27/trump_tweet_data_archive
-* https://projects.fivethirtyeight.com/trump-approval-ratings
-* https://www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html#polls
+* [Twitter - @realDonaldTrump](https://twitter.com/realDonaldTrump)
+* [2016 Tweets Archive](https://github.com/bpb27/trump_tweet_data_archive)
+* [2016 Pre-election Approval Ratings](https://www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html#polls)
+* [2017-2020 Presidential Approval Ratings](https://projects.fivethirtyeight.com/trump-approval-ratings)
 ### Python Libraries
-* https://www.tweepy.org/
-* https://pypi.org/project/GetOldTweets3/
+* [Get Old Tweets 3](https://pypi.org/project/GetOldTweets3/)
+* [Tweepy](https://www.tweepy.org/)
 ### Trump Twitter Image
-* https://www.cnn.com/videos/politics/2018/11/02/trump-twitter-social-media-truth-tapper-fact-check-orig.cnn
+* [CNN](https://www.cnn.com/videos/politics/2018/11/02/trump-twitter-social-media-truth-tapper-fact-check-orig.cnn)
 
 ---
 
